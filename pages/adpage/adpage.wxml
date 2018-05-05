@@ -1,0 +1,35 @@
+<!--pages/adpage/adpage.wxml-->
+<view>
+  <view class='banner'>
+    <image src="{{src}}" mode='{{mode}}'></image>
+  </view>
+  <view class='getInfoTitle'>
+    <text class='msgGray'>{{msg0}}</text>
+    <text class='msgRed'>{{msg_red}}</text>
+    <text>{{msg2}}</text>
+  </view>
+  <view class='getInfoInputBox'>
+    <input class='inputInfoChildName' placeholder="{{inputInfoChildName}}" confirm-type="done"></input>
+    <input class='inputInfoPhoneNumber' placeholder="{{inputInfoPhoneNumber}}" confirm-type="done"></input>
+    <button class='btnGetClass'>{{btnMsgGetClass}}</button>
+  </view>
+  <view class='intoTeacher'>
+    <text class='introTeacherTitle'>{{introTeacherTitle}}</text>
+    <text class='introTeacherContent'>{{introTeacherContent}}</text>
+  </view>
+
+  <view class='promissInfo'>
+    <text class='promissInfoTitle'>{{promissInfoTitle}}</text>
+    <text class='servicePromissTitle'>{{servicePromissTitle}}</text>
+    <text class='servicePromissContent'>{{servicePromissContent}}</text>
+    <text class='refundPromissTitle'>{{refundPromissTitle}}</text>
+    <text class='refundPromissContent'>{{refundPromissContent}}</text>
+  </view>
+
+  <view class='callMe'>
+    <text class='callThePhone'bindtap='callMe'>{{callThePhone}}</text>
+  </view>
+
+   <button class='btnGetClassBottom' bindtap='backToTop'>{{btnGetClassBottom}}</button>
+
+</view>

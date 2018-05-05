@@ -1,0 +1,14 @@
+<view class="section">
+  <view class="section__title">您的岗位工资的是：{{positionSalary}} 元</view>
+  <input  class="input" type="digit" bindinput="bindPositionSalaryInput" placeholder="请输入岗位工资" placeholder-class="placeholder"/>
+
+  <view class="section__title">您的计税总额的是：{{totalTax}} 元</view>
+  <input  class="input" type="digit" bindinput="bindtotalTax" placeholder="请输入计税总额" placeholder-class="placeholder"/>
+ 
+  <view class="section__title">您的个人所得税的是：{{personalIncomeTax}} 元</view>
+  <input class="input" type="digit" bindinput="bindpersonalIncomeTax" placeholder="请输入个人所得税" placeholder-class="placeholder"/>
+  <text class="result_text">{{result}}</text>
+
+  <button class='btn_calculate' bindtap='getResult'>算一算</button>
+</view>
+

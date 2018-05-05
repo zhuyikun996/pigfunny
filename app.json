@@ -1,0 +1,37 @@
+{
+  "pages":[
+    "pages/adpage/adpage",
+    "pages/index/index",
+    "pages/calculate/calculate",
+    "pages/test/test",
+    "pages/logs/logs",
+    "pages/register
+    
+                fdsfsdfsdfdsfsdfrererlkjsdfkljaklfjldksaf0sdlkfjsdlkfjlkjv                      /register"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "计算",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/home_selected.png",
+        "iconPath": "images/home.png",
+        "pagePath": "pages/adpage/adpage",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/calculate_selected.png",
+        "iconPath": "images/calculate.png",
+        "pagePath": "pages/calculate/calculate",
+        "text": "工具"
+      }
+    ]
+  }
+}

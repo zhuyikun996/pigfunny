@@ -1,0 +1,9 @@
+<!--pages/test/test.wxml-->
+<view class="itemView">用户名：
+    <input class="input" name="userName" placeholder="请输入用户名"
+    bindinput ="userNameInput"/>
+  </view>
+
+<view class="viewName" style="background-color:#fbf9fe">
+  <button class="loginBtn" bindtap="loginBtnClick">登录</button>
+</view>
