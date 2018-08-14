@@ -1,0 +1,17 @@
+<!--pages/watercare/watercare.wxml-->
+<view class="wrap">
+  <view class="circle-box">
+    <canvas class="circle" style="z-index: -99; width:200px; height:200px;" canvas-id="canvasCircle">
+    </canvas>
+    <canvas class="circle" style="width:200px; height:200px;" canvas-id="canvasArcCir">
+    </canvas>
+    <button class='btn_rest' bindtap="rest">重新开始</button>
+    <form bind:submit="remind" report-submit="true">
+      <button class="draw_btn" style='color:{{btn_color}}' bindtap="drawCircle" type='{{btn_type}}' disabled='{{btn_disable}}' formType="submit">{{btn_tips}}</button>
+    </form>
+
+
+
+    <text class='bottole_number'>{{bottolenumber}}</text>
+  </view>
+</view>

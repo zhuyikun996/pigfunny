@@ -1,0 +1,21 @@
+<!--pages/bmiresult/bmiresult.wxml-->
+<view class='title_tips'>
+  <image src='../../images/result_tips.png'></image>
+  <text>测试结果</text>
+</view>
+<view class='result_tips'>
+  <view class='blue-line'></view>
+  <text class='bmi-tips'>我的BMI指数为：</text>
+  <text class='bmi-number'>{{bmi}}</text>
+</view>
+<view class='suggest'>
+  <text>{{suggest}}</text>
+</view>
+
+<view class='bmi_standard'>
+  <image src='../../images/bmi_standard.png' mode='aspectFit'></image>
+</view>
+<view class='recalculate'>
+  <button class='btn_calculate' hover-class='button-hover' bindtap='recalculate'>重新计算</button>
+  <button class='btn_share' open-type="share">让朋友测一测</button>
+</view>

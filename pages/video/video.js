@@ -1,11 +1,18 @@
-// pages/register/register.js
+// pages/video/video.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    registerdata:[],
+    videoArray:[
+      {
+        src:'https://jnch5082qepx2gu.dz8n5.cdn.xiazailianjie.com/video_post/Attack_on_Titan/S03/01_batch.mp4?expires=1534137111&md5=30DiIhRMONwyM9z-cwFsQw',
+        // poster:'../../images/video.png'
+      
+      }
+    ]
+  
   },
 
   /**

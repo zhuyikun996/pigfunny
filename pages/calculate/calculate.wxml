@@ -9,6 +9,6 @@
   <input class="input" type="digit" bindinput="bindpersonalIncomeTax" placeholder="请输入个人所得税" placeholder-class="placeholder"/>
   <text class="result_text">{{result}}</text>
 
-  <button class='btn_calculate' bindtap='getResult'>算一算</button>
+  <button class='btn_calculate' bindtap='getResult' type='primary'>算一算</button>
 </view>
 

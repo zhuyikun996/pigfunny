@@ -1,0 +1,75 @@
+/* pages/bmi/bmi.wxss */
+
+.tips {
+  border: #5ac2d9;
+  border-style: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  margin-top: 10px;
+  height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  align-items: center;
+  display: flex;
+}
+
+.tips image {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+.tips text {
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.input_are {
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.input_are text {
+  margin-left: 5px;
+  color: #5ac2d9;
+  font-size: 16px;
+}
+
+.input_height_weight {
+  height: 50px;
+  margin-top: 5px;
+  align-items: center;
+  display: flex;
+  margin-left: 10px;
+}
+
+.input_height_weight text {
+  color: black;
+}
+
+.getHeight {
+  font-size: 16px;
+  width: 60vw;
+}
+
+.grey-line {
+  background-color: #ebebeb;
+  height: 1px;
+  margin-right: 10px;
+}
+
+.getWeight {
+  font-size: 16px;
+  width: 60vw;
+}
+
+.btn_calculate {
+  margin-top: 50px;
+  border-radius: 5px;
+  margin-right: 10px;
+  background-color: #5ac2d9;
+  color: white;
+}
+.button-hover {
+  background-color: #56a6b8;
+}

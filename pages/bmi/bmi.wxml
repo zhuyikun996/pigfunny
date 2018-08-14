@@ -1,0 +1,21 @@
+<!--pages/bmi/bmi.wxml-->
+<view class='tips'>
+  <image src='../../images/tips_pencil.png'></image>
+  <text>BMI值是目前常用的衡量人体胖瘦程度以及是否健康的一个标准</text>
+</view>
+<view class='input_are'>
+  <text>请输入您的信息：</text>
+  <view class='input_height_weight'>
+    <text>身高：</text>
+    <input class='getHeight' bindinput='getHeight' placeholder="请输入您的身高" type='number'></input>
+    <text>厘米(cm)</text>
+  </view>
+  <view class='grey-line'></view>
+  <view class='input_height_weight'>
+    <text>体重：</text>
+    <input class='getWeight' bindinput='getWeight' placeholder="请输入您的体重" type='number'></input>
+    <text>公斤(kg)</text>
+  </view>
+
+  <button class='btn_calculate' hover-class='button-hover' bindtap='calculate'>计算</button>
+</view>

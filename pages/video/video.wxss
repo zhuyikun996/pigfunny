@@ -1,0 +1,14 @@
+/* pages/video/video.wxss */
+
+.videoContainer {
+  width: 100vw;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+}
+
+.videoitem {
+  width: 90vw;
+  height: 180px;
+  border-radius: 5%;
+}

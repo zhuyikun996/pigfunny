@@ -1,17 +1,19 @@
 {
-  "pages":[
-    "pages/adpage/adpage",
-    "pages/index/index",
+  "pages": [
+    "pages/video/video",
+    "pages/watercare/watercare",
+    "pages/bmiresult/bmiresult",
+    "pages/bmi/bmi",
     "pages/calculate/calculate",
-    "pages/test/test",
-    "pages/logs/logs",
-    "pages/register/register"
+    "pages/adpage/adpage",
+    "pages/toolslist/toolslist",
+    "pages/test/test"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "计算",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "color": "#a9b7b7",
@@ -19,16 +21,16 @@
     "borderStyle": "white",
     "list": [
       {
-        "selectedIconPath": "images/home_selected.png",
-        "iconPath": "images/home.png",
-        "pagePath": "pages/adpage/adpage",
-        "text": "首页"
+        "selectedIconPath": "images/cup.png",
+        "iconPath": "images/cup_grey.png",
+        "pagePath": "pages/watercare/watercare",
+        "text": "喝水"
       },
       {
-        "selectedIconPath": "images/calculate_selected.png",
-        "iconPath": "images/calculate.png",
-        "pagePath": "pages/calculate/calculate",
-        "text": "工具"
+        "selectedIconPath": "images/calculater.png",
+        "iconPath": "images/calculater_grey.png",
+        "pagePath": "pages/bmi/bmi",
+        "text": "计算BMI"
       }
     ]
   }

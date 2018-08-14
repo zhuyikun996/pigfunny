@@ -10,12 +10,11 @@
   margin-top: 15px;
   display: flex;
   justify-content: center;
-  color: red
+  color: #b7282e;
 }
 .btn_calculate {
   margin-top: 30px;
   margin-right: 20px;
-  background-color: #33cc66;
   color: white
 }
 .input {

@@ -1,0 +1,7 @@
+<!--pages/video/video.wxml-->
+
+<view class="videoList" wx:for="{{videoArray}}" wx:key="{{index}}" bindtap='directToRequestDetail'>
+  <view class='videoContainer'>
+    <video class='videoitem' src='{{item.src}}' objectFit='fill' poster='{{item.poster}}'></video>
+  </view>
+</view>

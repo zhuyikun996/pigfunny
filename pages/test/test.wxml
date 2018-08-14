@@ -4,6 +4,27 @@
     bindinput ="userNameInput"/>
   </view>
 
+  <view class="itemView">密码：
+    <input class="input" name="passWord" placeholder="请输入密码"
+    bindinput ="passWdInput"/>
+  </view>
+
 <view class="viewName" style="background-color:#fbf9fe">
-  <button class="loginBtn" bindtap="loginBtnClick">登录</button>
+  <button class="loginBtn" bindtap="loginBtnClick">getInfo</button>
+
 </view>
+
+  <swiper
+    indicator-dots='{{indicatorDots}}'
+    autoplay='{{autoplay}}'
+    interval='{{interval}}'
+    current='1'
+    duration='{{duration}}'
+
+  >
+    <block wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+       <image class='item-image' mode="{{itemimagemode}}" src="{{item.url}}"></image>
+      </swiper-item>
+    </block>
+  </swiper>

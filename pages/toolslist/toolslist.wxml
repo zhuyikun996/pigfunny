@@ -1,0 +1,13 @@
+<!--pages/toolslist/toolslist.wxml-->
+<view class='title-area'>
+  <text class='title-txt'>点击图片跳转到相应工具</text>
+</view>
+<view class='choose-area'>
+  <image class='item-img' src='../../images/cup.png' bindtap='goToWaterCare'></image>
+  <text class='note-txt'>每天8杯水</text>
+</view>
+
+<view class='choose-area'>
+  <image class='item-img' src='../../images/calculater.png' bindtap='goToCalculateMD'></image>
+  <text class='note-txt'>计算membership dues</text>
+</view>
