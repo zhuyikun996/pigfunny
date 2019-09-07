@@ -1,0 +1,5 @@
+<!--pages/accept/accept.wxml-->
+<view class='tips'>哇塞！有个家伙给可爱你的发来了一张和好卡，这张卡片可以用来和好</view>
+<view class='acceptButtonArea'>
+  <button open-type="getUserInfo" bindgetuserinfo="getUserID" hover-class="acceptButtonClicked">勉强收下</button>
+</view>

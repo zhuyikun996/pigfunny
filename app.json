@@ -1,13 +1,16 @@
 {
+  "cloud": true,
   "pages": [
-    "pages/video/video",
+    "pages/funny/funny",
+    "pages/funnydetail/funnydetail",
+    "pages/welcomepage/welcomepage",
     "pages/watercare/watercare",
-    "pages/bmiresult/bmiresult",
     "pages/bmi/bmi",
-    "pages/calculate/calculate",
-    "pages/adpage/adpage",
-    "pages/toolslist/toolslist",
-    "pages/test/test"
+    "pages/todayfriday/todayfriday",
+    "pages/reconcile/reconcile",
+    "pages/accept/accept",
+    "pages/bmiresult/bmiresult",
+    "pages/calculate/calculate"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,7 +34,14 @@
         "iconPath": "images/calculater_grey.png",
         "pagePath": "pages/bmi/bmi",
         "text": "计算BMI"
+      },
+      {
+        "selectedIconPath": "images/calendar.png",
+        "iconPath": "images/calendar_grey.png",
+        "pagePath": "pages/todayfriday/todayfriday",
+        "text": "日历"
       }
     ]
-  }
+  },
+  "sitemapLocation": "sitemap.json"
 }

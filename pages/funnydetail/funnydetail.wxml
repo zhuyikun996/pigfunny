@@ -1,0 +1,20 @@
+<view class="item">
+    <image class='item_img' src='{{funnydata.url}}' mode="widthFix"></image>
+    <view class="content_view">
+        <text class='item_content_tips'>沙雕说：</text>
+        <text class='item_content'>{{funnydata.content}}</text>
+    </view>
+</view>
+<view class="ad">
+  <ad unit-id="adunit-4ae6f03b1dc87625"></ad>
+</view>
+<view class='whitespaceView'></view>
+<view class='bottomview'>
+    <view class='btnContainer'>
+        <view class="btnHomeView" bindtap='goBackHome'>
+            <image class='imgHome' src='../../images/home.png'></image>
+            <text class="txtHome">返回</text>
+        </view>
+        <button class="btnShare" hover-class='btnShareClicked' open-type='share'>分享</button>
+    </view>
+</view>

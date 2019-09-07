@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "wl-ad": "/components/wlAD/wlAD"
+    },
+    "navigationBarTitleText": "小猪搞笑段子"
+}

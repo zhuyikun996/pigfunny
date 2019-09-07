@@ -1,0 +1,15 @@
+<view class="wl_banner" style="background: #fff;color:#333;">
+  
+</view>
+<view class="funnyList" wx:for="{{itemArray}}" bindtap='goDetail' wx:key="{{index}}" data-index="{{index}}">
+  <block>
+    <view class='funnyItem'>
+      <image class='item_img' src='{{item.url}}' mode="widthFix"></image>
+      <text class='txt_content_tips'>沙雕热评</text>
+      <text class='txt_content'>{{item.content}}</text>
+    </view>
+  </block>
+</view>
+<view class="ad" hidden="{{hiddenAd}}">
+  <ad unit-id="adunit-f8d2788f324a1415"></ad>
+</view>

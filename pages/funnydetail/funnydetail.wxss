@@ -1,0 +1,108 @@
+/* pages/funnydetail/funnydetail.wxss */
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.item_img {
+    width: 100%;
+}
+
+.content_view {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.item_content_tips {
+    font-size: 14px;
+    color: #4D9CBB;
+}
+
+.item_content {
+    font-size: 14px;
+}
+
+
+/* 空白区域，防止长图遮盖底部返回和分享按钮 */
+
+.whitespaceView {
+    width: 100%;
+    height: 70px;
+}
+
+
+/* 底部区域布局 */
+
+.bottomview {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    background-color: white
+}
+
+.btnContainer {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* 主页view */
+
+.btnHomeView {
+    height: 60px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHome {
+    width: 30px;
+    height: 30px;
+}
+
+.txtHome {
+    font-size: 8px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    color: #3C4141
+}
+
+
+/* 分享按钮 */
+
+.btnShare::after {
+    border: none;
+}
+
+.btnShare {
+    flex: 1;
+    background-color: #FFE411;
+    color: #3C4141;
+    border-radius: 5px;
+    height: 35px;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+
+.btnShareClicked {
+    background-color: rgb(189, 169, 22);
+}
+.ad{
+  margin-top: 30px;
+}

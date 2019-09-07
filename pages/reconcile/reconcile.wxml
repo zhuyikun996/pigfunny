@@ -1,0 +1,10 @@
+<!--pages/reconcile/reconcile.wxml-->
+<view class='titleArea'>
+  <image src="{{src}}" mode='{{mode}}'></image>
+</view>
+<view class='myCardArea'>
+  <button type='default' bindgetuserinfo="useMyCard" open-type="getUserInfo">我有{{myCardNumber}}张和好卡{{use1Card}}</button>
+</view>
+<view class='sendCardArea'>
+  <button type='primary' open-type='share' >给TA发一张</button>
+</view>
